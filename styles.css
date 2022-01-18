@@ -1,0 +1,40 @@
+:root{
+    --container-size:300px;
+}
+body{
+color: white;
+background:transparent url(../images/dots.png) repeat-x repeat-y top left;
+background: black;
+    display: grid;
+    place-items: center;
+    width: 97vw;
+    height: 97vh;
+}
+.container{
+    width: var(--container-size);
+    height: var(--container-size);
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: black;
+    
+}
+.option{
+    margin: 0 0 0px;
+    padding: 10px;
+    border:none;
+}
+
+#rainbow-pen-option{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+.style-box{
+    padding: 1rem;
+    border-radius: 20px;
+    color: white;
+background: rgb(37, 37, 37);
+border:1px solid white;
+}
